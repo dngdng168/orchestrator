@@ -49,7 +49,7 @@ public class ConsoleApp {
 
     public static void printHelp() {
         System.out.println();
-        System.out.println("Here are the supported commends:");
+        System.out.println("Here are the supported commands:");
         System.out.println("task --add {task-name} {task-type} {numOfRetries}");
         System.out.println("task --delete {task-name}");
         System.out.println("task --add-depend {task-name} {task-name}");
